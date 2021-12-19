@@ -3,7 +3,7 @@
 
 import redis
 
-# Se establese la conexión de redis en la base de datos 0
+# Se establece la conexión de redis en la base de datos 0
 # redis://localhost:6379
 collection = redis.Redis(host='localhost', port=6379, db=0)
 hashName = "diccionario"
